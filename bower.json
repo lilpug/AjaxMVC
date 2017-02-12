@@ -1,0 +1,30 @@
+{
+  "name": "AjaxMVC",
+  "title": "AjaxMVC",
+  "description": "AjaxMVC is a jquery plugin which sits on top of ajax calls to make passing antiforgerytokens to mvc 5+ automatic and easier.",  
+  "main": [
+    "src/AjaxMVC.js"
+  ],
+  "authors": [
+    "David Whitehead <david__whitehead2@hotmail.com>"
+  ],
+  "license": "MIT",  
+  "repository": {
+	"type": "git",
+	"url": "git://github.com/lilpug/AjaxMVC.git"
+  },
+  "dependencies": {
+    "jquery": ">=1.7",
+	"bootstrap": ">=3"
+  },
+  "keywords": [
+    "ajax",
+    "mvc",
+    "ajaxmvc",
+	"AjaxMVC"
+  ],  
+  "bugs": "https://github.com/lilpug/AjaxMVC/issues",
+  "homepage": "https://github.com/lilpug/AjaxMVC",
+  "docs": "https://github.com/lilpug/AjaxMVC",
+  "download": "https://github.com/lilpug/AjaxMVC"
+}
