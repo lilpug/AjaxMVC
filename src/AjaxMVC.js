@@ -87,6 +87,7 @@
         $(document).ajaxStart(function () 
 		{	
 			//Adds the modal to the body
+			//Note: we do it here as in some cases like the fileupload progress ajax methods, the modal is not created when trying to add values if done in the start function.
 			$("body").append(html);
 			
             //Sets the blockui to show after a second of ajax start if not finished before
